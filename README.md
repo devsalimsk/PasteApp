@@ -1,4 +1,4 @@
-#Click here https://paste-app-rust-seven.vercel.app/
+#Click here https://paste-app-lyart.vercel.app/
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
