@@ -45,7 +45,7 @@ const Paste = () => {
                   {paste.title}
                 </h3>
                 {/* Buttons */}
-                <div className="flex gap-3 all-button flex-row md:flex-row"> {/* Responsive flex layout */}
+                <div className="flex gap-3 all-button flex-row md:flex-row "> {/* Responsive flex layout */}
                   <NavLink to={`/?pasteId=${paste?._id}`}>
                     <button
                       className="p-2 rounded-full hover:bg-gray-700 transition-colors border"

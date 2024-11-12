@@ -61,13 +61,13 @@ const Home = () => {
           </button>
         </div>
         <div className="w-full max-w-4xl">
-          <div className="line-with-balls ml-2 mt-1">
-            <span className="ball red"></span>
+          <div className="line-with-balls bg-gray-400 rounded-tl-xl rounded-tr-xl w-full ">
+            <span className="ball red ml-2"></span>
             <span className="ball yellow"></span>
             <span className="ball green"></span>
-            <button className="flex">
+            <button className="flex mb-7">
               <IoCopyOutline
-                className="copy-icon bottom-[-12px]"
+                className="copy-icon text-indigo-800 w-7 h-7 hover:text-white"
                 onClick={() => {
                   navigator.clipboard.writeText(value);
                   toast.success("Copied to clipboard");
@@ -76,13 +76,13 @@ const Home = () => {
             </button>
           </div>
           <textarea
-            className="flex w-full sm:w-[600px] mt-[-2rem] p-8 h-[400px] rounded-xl bg-dark-blue shadow-neomorph-dark focus:outline-none focus:ring focus:ring-yellow-600 transition-all"
+            className="flex w-full sm:w-[600px] p-3 h-[400px] rounded-bl-xl rounded-br-xl bg-dark-blue shadow-neomorph-dark"
             placeholder="Enter content here"
             value={value}
             onChange={(e) => setValue(e.target.value)}
           ></textarea>
         </div>
-      </div>
+      </div>  
     </>
   );
 };
