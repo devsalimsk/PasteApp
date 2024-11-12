@@ -10,7 +10,7 @@ const Footer = () => {
         </p>
         <div className="mt-2">
           <a
-            href="https://github.com/your-github-devsalimsk/"
+            href="https://github.com/devsalimsk/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-400 hover:text-white mx-2"
